@@ -1,0 +1,25 @@
+var nick = prompt('Введите свое имя');
+console.log('Ваше имя ' + nick);
+var age = prompt('Введите свой возраст');
+console.log('Ваш возраст ' + age);
+var plus = prompt('2 + 3 = ?');
+console.log('Пример 1: 2 + 3 = 5 ' + 'Ваш ответ ' + plus);
+var minus = prompt('9 - 5 = ?');
+console.log('Пример 2: 9 - 5 = 4 ' + 'Ваш ответ ' + minus);
+var multiple = prompt('3 * 5 = ?');
+console.log('Пример 3: 3 * 5 = 15 ' + 'Ваш ответ ' + multiple);
+var divide = prompt('9 / 3 = ?');
+console.log('Пример 4: 9 / 3 = 3 ' + 'Ваш ответ ' + divide);
+var percent = prompt('10 % 3 = ?');
+console.log('Пример 5: 10 % 3 = 1 ' + 'Ваш ответ ' + percent);
+
+var X = +prompt('Введите значение X');
+console.log('Первое значение : ' + X);
+var Y = +prompt('Введите значение Y');
+console.log('Второе значение : ' + Y);
+var Z = +prompt('Введите значение Z');
+console.log('Третье значение : ' + Z);
+var midNumber = 'Среднее арифметическое равно : ' + ((X + Y + Z) / 3);
+alert(midNumber);
+var end = 'Войдите в консоль для просмотра';
+alert(end);
